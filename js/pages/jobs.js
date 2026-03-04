@@ -74,11 +74,11 @@ export const renderJobs = () => {
                     <form id="apply-form">
                         <div class="form-group">
                             <label>Full Name</label>
-                            <input type="text" placeholder="Jane Doe" required />
+                            <input type="text" placeholder="Armaan" required />
                         </div>
                         <div class="form-group">
                             <label>Mobile Number</label>
-                            <input type="tel" placeholder="+1 (555) 000-0000" required />
+                            <input type="tel" placeholder="70XXXXXXX" required />
                         </div>
                         <div class="form-group">
                             <label>Education Qualification</label>
@@ -197,3 +197,4 @@ document.addEventListener('route-rendered', () => {
         });
     }
 });
+
