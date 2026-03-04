@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextLevel - Job Portal & Preparation Hub</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@500;700;800&display=swap"
+        rel="stylesheet">
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="/css/design-system.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <meta name="description"
+        content="Discover jobs, prepare for Aptitude, DSA, Technical, and HR interviews all in one place.">
+</head>
+
+<body class="theme-dark">
+    <!-- Navbar -->
+    <nav class="navbar glass">
+        <div class="container nav-content">
+            <a href="/" class="brand" data-link>Sab<span class="text-gradient">reen</span></a>
+            <ul class="nav-links">
+                <li><a href="/" data-link>Home</a></li>
+                <li><a href="/jobs" data-link>Job Portal</a></li>
+                <li><a href="/prep" data-link>Preparation Hub</a></li>
+                <li><a href="/dsa" data-link>DSA Sheets</a></li>
+                <li><a href="/companies" data-link>Companies</a></li>
+            </ul>
+            <div style="display: flex; align-items: center; gap: 1rem;">
+                <button id="theme-toggle" class="btn glass"
+                    style="padding: 0; border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; font-size: 1.25rem;"
+                    aria-label="Toggle Theme">🌙</button>
+                <button class="btn btn-primary shadow-glow">Sign In</button>
+            </div>
+        </div>
+    </nav>
+
+
+    <main id="app-root"></main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 NextLevel. Accelerate your career.</p>
+        </div>
+    </footer>
+
+
+    <script src="/js/app.js" type="module"></script>
+</body>
+
+</html>
